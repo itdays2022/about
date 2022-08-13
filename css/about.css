@@ -1,0 +1,322 @@
+/* ================================================= 
+                        DEFINISI
+/* ================================================ */
+.definisi {
+  margin-top: 6rem;
+}
+
+.definisi .col {
+  margin-top: 3rem;
+}
+.definisi .border-animation {
+  width: 23rem;
+  height: 16rem;
+  border-radius: 0 50% 0 50%;
+}
+
+.definisi .border-animation .inset {
+  inset: 4px;
+  border-radius: 0 50% 0 50%;
+  background: #0d112d;
+  z-index: 10;
+}
+
+.definisi .border-animation::after {
+  width: 20rem;
+  height: 20rem;
+}
+.definisi .border-animation::before {
+  width: 20rem;
+  height: 20rem;
+}
+
+.definisi .image {
+  z-index: 10;
+  border-radius: 0 50% 0 50%;
+}
+.definisi .image img {
+  width: 22rem;
+  height: 15rem;
+  border-radius: 0 50% 0 50%;
+}
+
+/* ================================================= 
+                      END DEFINISI
+/* ================================================ */
+
+/* ================================================= 
+                        FILOSOFI
+/* ================================================ */
+.filosofi {
+  margin-top: 15rem;
+}
+.filosofi .col {
+  margin-top: 3rem;
+}
+
+.filosofi .border-animation {
+  width: 21rem;
+  height: 21rem;
+  border-radius: 50%;
+}
+
+.filosofi .border-animation .inset {
+  inset: 2px;
+  border-radius: 50%;
+  background: #0d112d;
+  z-index: 10;
+}
+
+.filosofi .border-animation::after {
+  width: 20rem;
+  height: 20rem;
+}
+.filosofi .border-animation::before {
+  width: 20rem;
+  height: 20rem;
+}
+
+.filosofi .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+.filosofi .image img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  margin-top: -0.5rem;
+}
+
+/* ================================================= 
+                      END FILOSOFI
+/* ================================================ */
+
+/* ================================================= 
+                        GALLERY
+/* ================================================ */
+.gallery {
+  margin-top: 15rem;
+}
+
+.gallery .gallery-image {
+  display: none;
+  margin-bottom: 1.5rem;
+}
+.gallery .gallery-image.active {
+  display: flex;
+}
+.gallery .gallery-image .col {
+  border-radius: 10px;
+}
+
+.gallery img {
+  border-radius: 10px;
+}
+
+.gallery #load {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.gallery #load:hover {
+  color: #000;
+  font-weight: 500;
+  background: #00ffea;
+  box-shadow: 0px 0px 10px #00ffea;
+}
+
+.gallery #exampleModal .modal-img {
+  width: 100%;
+}
+
+/* .gallery .modal-content {
+  width: 100%;
+  height: 100%;
+} */
+/* ================================================= 
+                      END GALLERY
+/* ================================================ */
+
+/* ================================================= 
+                DISPLAY FOR 768 TABLET
+/* ================================================ */
+@media (min-width: 768px) {
+  /* ================================================= 
+                         DEFINISI 758PX
+  /* ================================================ */
+  .definisi .border-animation {
+    height: 17rem;
+    border-radius: 0 50% 0 50%;
+  }
+
+  .definisi .border-animation .inset {
+    inset: 3px;
+    border-radius: 0 50% 0 50%;
+    background: #0d112d;
+    z-index: 10;
+  }
+
+  .definisi .border-animation::after,
+  .definisi .border-animation::before {
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .definisi .image {
+    z-index: 10;
+    border-radius: 0 50% 0 50%;
+  }
+  .definisi .image img {
+    width: 25rem;
+    height: 16rem;
+    border-radius: 0 50% 0 50%;
+  }
+
+  /* ================================================= 
+                         DEFINISI 768PX
+  /* ================================================ */
+
+  /* ================================================= 
+                         FILOSOFI 768PX
+  /* ================================================ */
+  .filosofi .border-animation {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+  }
+
+  .filosofi .border-animation .inset {
+    inset: 3px;
+    border-radius: 50%;
+    background: #0d112d;
+    z-index: 10;
+  }
+
+  .filosofi .border-animation::after,
+  .filosofi .border-animation::before {
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .filosofi .image {
+    z-index: 10;
+    border-radius: 50%;
+  }
+  .filosofi .image img {
+    width: 19rem;
+    height: 19rem;
+    border-radius: 50%;
+    margin-top: -0.7rem;
+  }
+  /* ================================================= 
+                      END FILOSOFI 768PX
+  /* ================================================ */
+
+  /* ================================================= 
+                        GALLERY 768PX
+/* ================================================ */
+  .modal-dialog {
+    --bs-modal-width: 800px;
+  }
+  /* ================================================= 
+                      END GALLERY 768PX
+/* ================================================ */
+}
+/* ================================================= 
+                 END DISPLAY FOR 768 TABLET
+  /* ================================================ */
+
+/* ================================================= 
+                  DISPLAY FOR 992 LAPTOP
+  /* ================================================ */
+@media (min-width: 992px) {
+  /* ================================================= 
+                         DEFINISI 992PX
+  /* ================================================ */
+  .definisi .border-animation {
+    width: 31rem;
+    height: 21rem;
+    border-radius: 0 50% 0 50%;
+  }
+
+  .definisi .border-animation .inset {
+    inset: 3px;
+    border-radius: 0 50% 0 50%;
+    background: #0d112d;
+    z-index: 10;
+  }
+
+  .definisi .border-animation::after {
+    width: 50rem;
+    height: 50rem;
+  }
+  .definisi .border-animation::before {
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .definisi .image img {
+    width: 30rem;
+    height: 20rem;
+    border-radius: 0 50% 0 50%;
+  }
+
+  /* ================================================= 
+                        END DEFINISI 992PX
+  /* ================================================ */
+
+  /* ================================================= 
+                        FILOSOFI 992PX
+  /* ================================================ */
+  .filosofi .border-animation {
+    width: 31rem;
+    height: 31rem;
+    border-radius: 50%;
+  }
+
+  .filosofi .border-animation .inset {
+    inset: 3px;
+    border-radius: 50%;
+    background: #0d112d;
+    z-index: 10;
+  }
+
+  .filosofi .border-animation::before,
+  .filosofi .border-animation::after {
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .filosofi .image {
+    width: 100%;
+    height: 100%;
+  }
+  .filosofi .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  /* ================================================= 
+                    END FILOSOFI 992PX
+  /* ================================================ */
+
+  /* ================================================= 
+                        GALERY 992PX
+/* ================================================ */
+
+  .modal-dialog {
+    --bs-modal-width: 900px;
+  }
+  /* ================================================= 
+                      END GALERY 992PX
+/* ================================================ */
+}
+/* ================================================= 
+                  END DISPLAY 768PX LAPTOP
+  /* ================================================ */
