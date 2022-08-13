@@ -1,4 +1,4 @@
-const activePage = window.location.pathname;
+const activePage = window.location.href;
 const navLinks = document.querySelectorAll(".navbar a");
 
 navLinks.forEach((link) => {
